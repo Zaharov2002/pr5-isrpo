@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>pr5_isrpo</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cats1.jpg" />
+    <None Remove="cats2.jpg" />
+    <None Remove="cats3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cats1.jpg" />
+    <Resource Include="cats2.jpg" />
+    <Resource Include="cats3.jpg" />
+  </ItemGroup>
+
+</Project>

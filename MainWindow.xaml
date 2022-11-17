@@ -1,0 +1,22 @@
+﻿<Window x:Class="pr5_isrpo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr5_isrpo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Height="20" VerticalAlignment="Top">
+            <MenuItem Header="Cats">
+                <MenuItem Header="Cat1" Click="MenuItem_Click"/>
+                <MenuItem Header="Cat2" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Cat3" Click="MenuItem_Click_2"/>
+            </MenuItem>
+        </Menu>
+        <Image x:Name="cats1" Source="images/cats1.jpeg" Height="400" Width="700"/>
+        <Image x:Name="cats2" Source="images/cats2.jpg" Height="400" Width="700"/>
+        <Image x:Name="cats3" Source="images/cats3.jpg" Height="400" Width="700"/>
+    </Grid>
+</Window>
+
